@@ -22,7 +22,7 @@ For the data extraction phase, we took data from the 4 disparate sources and con
 
 ![QuickDBD-export.png](Output/QuickDBD-export.png) 
 
-## **TRANSFORM**
+## **Transform**
 
 During the transformation phase, we performed various data cleaning tactics to get the data clean before loading into the database.  We developed a location table in order to connect multiple sources together by location id.  A couple of our datasets were 3 dimensional, with values listed as headers.  We transposed those values and lined them up with their respective data points in the dataset and renamed the titles.  Extra characters and notations were removed to make the data consistent. For example, some states provided a range of values for minimum wage, instead of 1 value.  In those cases, we took the higher value because the higher value was closer to the other values we saw for minimum wage.  Numeric values were converted to integers to keep the data types consistent with the database schema.  Data was sorted to help make the data readable and user-friendly.  Hyperlinks in the data were changed to simple text to prevent users from getting directed to various websites.  Dataframes were created which represent the data that was uploaded during the load phase.  Within the dataframes, important columns were selected and null values were removed to keep the tables focused on only relevant data.  Unique ids were created for the tables to ensure each table has a unique identifier.  
 

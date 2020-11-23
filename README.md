@@ -31,7 +31,7 @@ During the transformation phase, we performed various data cleaning tactics to g
 
 To execute the load phase, a connection was created between the Jupyter Notebook and PGAdmin.  We also imported SQLAlchemy, which is a Python module that enables you to connect the two applications.  The file path of the database was saved and an "engine" was created to form the connection.  Finally, the tables that were previously built are inserted into the database using the insert command, which completes the ETL process.  
 
-## **SOURCES**
+## **Sources**
 
 * [“Changes in Basic Minimum Wages in Non-Farm Employment Under State Law: Selected Years 1968 to 2019.” U.S. Department of Labor]( https://www.dol.gov/agencies/whd/state/minimum-wage/history)
 

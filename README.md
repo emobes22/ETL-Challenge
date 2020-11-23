@@ -6,7 +6,7 @@ The goal of this project is to illustrate Extract Transform Load (ETL) using Exc
  
 Our team (Jim Dale, Kat Heron, Alynda Her and Emily Mobley) decided to use compensation and life expectancy data for the project.  We chose compensation because it's a common topic that the average person can understand and thought it would be interesting to compare compensation across industry sectors and tie the results to predicted life expectancy.  
 
-## **DATA**
+## **Data**
 
 We obtained data from a variety of sources including the Bureau of Labor Statistics (BLS), Centers for Disease Control and Prevention, US Department of Labor (DOL) and Wikipedia.  
  
